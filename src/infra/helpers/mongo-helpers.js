@@ -20,7 +20,6 @@ module.exports = {
     if (!this.client.isConnected()) {
       await this.connect(this.uri, this.dbName)
     }
-
     return this.db
   }
 }
