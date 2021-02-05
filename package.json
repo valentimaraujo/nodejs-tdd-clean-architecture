@@ -16,7 +16,7 @@
     ]
   },
   "scripts": {
-    "test": "jest --silent --colors --noStackTrace --passWithNoTests --detectOpenHandles",
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
